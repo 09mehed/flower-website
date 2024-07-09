@@ -14,7 +14,8 @@ body{
     background-color: #FCEEF1;
 }
 .header-section{
-    margin: 0 5%;
+    width: 88%;
+    margin: 0 auto;
     height: 420px;
     display: flex;
 }
@@ -71,7 +72,8 @@ body{
     margin: 30px 0;
 }
 .feature-section{
-    margin: 0 12%;
+    width: 88%;
+    margin: 0 auto;
 }
 .feature-section h2{
     color: rgb(39, 39, 39);
@@ -92,8 +94,9 @@ body{
 }
 .feature-box{
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    gap: 15px;
 }
 .feature-img, .feature-img2{
     width: 270px;
@@ -151,7 +154,8 @@ body{
     padding: 20px 0;
 }
 .delivery-area{
-    margin: 0 12%;
+    width: 76%;
+    margin: 0 auto;
     background-color: #F4F4F4;
     display: flex;
     justify-content: space-around;
@@ -271,10 +275,15 @@ button{
 .last-deal{
     max-width: 1301px;
     padding: 30px 0;
-    background-image: url();
+    background-image: url("./Flower\ Asset/Rectangle 9.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 88%;
+    margin: 30px auto;
 }
 .last-deal-area{
-    margin: 0 12%;
+   
     height: 300px;
     display: flex;
     flex-direction: column;
